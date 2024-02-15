@@ -1,0 +1,118 @@
+
+.container-add{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 3vh;
+    padding: 4vh 3vw;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: -1px 3px 400px 19px rgba(0,0,0,0.48);
+    -webkit-box-shadow: -1px 3px 400px 19px rgba(0,0,0,0.48);
+    -moz-box-shadow: -1px 3px 400px 19px rgba(0,0,0,0.48);
+}
+
+
+.top h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.add-sair{
+    font-size: 2rem;
+    margin-top: -1vh;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 1vh 2vw;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.add-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3vh;
+}
+
+.add-form input, select{
+    width: 70vw;
+    padding: 1vh;
+    outline: none;
+    border: #ccc 1px solid;
+}
+
+.descricao{
+    height: 6vh;
+}
+
+select{
+    width: 74vw;
+}
+
+.botoes-add{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-add button{
+    width: 60%;
+    padding: 1.3vh;
+    margin: 0 8vw;
+    border: none;
+    color: #000;
+    background-color: #A1FF91;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #8cdd7e;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    gap: 2vw;
+    width: 80%;
+}
+
+.BtnCancelar{
+    width: 50%;
+    padding: 1.3vh;
+    border: none;
+    color: #000;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.BtnDeletar{
+    width: 50%;
+    padding: 1.3vh;
+    border: none;
+    color: #000;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+
+}

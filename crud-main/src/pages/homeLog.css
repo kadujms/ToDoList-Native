@@ -1,0 +1,38 @@
+.container-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.botao-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background-color: lightgreen;
+    border-radius: 10px;
+
+    padding: 2vh;
+    width: 90%;
+    cursor: pointer;
+}
+
+.botao-add:hover{
+    background-color: rgb(113, 231, 113);
+}
+
+.botao-add:active{
+    transform: scale(.85);
+}
+
+.botao-txt{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 5vw;
+}
+
+.plus{
+    width: 25px;
+}
